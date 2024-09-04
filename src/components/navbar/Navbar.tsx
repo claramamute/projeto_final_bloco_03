@@ -39,8 +39,8 @@ function Navbar() {
           <ul className="flex justify-around p-4 bg-green-700 font-poppins font-semibold text-white uppercase">
         
             <li  className=" hover:text-lime-400"><Link to=''>Produtos </Link></li>
-            <li  className="  hover:text-lime-400"><Link to=''>Categorias </Link></li>
-            <li  className="  hover:text-lime-400"><Link to=''>Cadastrar Categoria </Link></li>
+            <li  className="  hover:text-lime-400"><Link to='/categorias'>Categorias </Link></li>
+            <li  className="  hover:text-lime-400"><Link to='/cadastrarcategoria'>Cadastrar Categoria </Link></li>
             <li  className=" hover:text-lime-400"><Link to='' >Sair</Link></li>
             
           </ul>

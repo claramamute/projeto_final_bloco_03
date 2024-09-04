@@ -37,7 +37,7 @@ function Home() {
               <p className="text-4xl uppercase font-poppins  text-slate-50 font-bold">
                 Seja bem-vindo
               </p>
-              <p className='text-2xl'>
+              <p className='text-2xl font-bold'>
                 Farmácia bem-estar
               </p>
             </div>
@@ -46,7 +46,7 @@ function Home() {
             <div className="flex justify-around gap-4">
 
               <div className="rounded border-blue-neon border-solid border-2 py-2 px-4 text-slate-50 hover:bg-green-700 hover:text-slate-50  font-poppins font-bold">
-                Novo Produto
+                 Produtos
               </div>
 
             </div>
