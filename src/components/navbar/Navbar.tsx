@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="flex flex-col bg-slate-200">
+      <div className="flex flex-col bg-white">
         <div className="flex justify-center items-center p-2  bg-blue-neon">
           <p className="fs text-green-600 font-extrabold uppercase ">Frete grátis para todo Brasil!</p>
         </div>
@@ -38,7 +38,7 @@ function Navbar() {
         <div>
           <ul className="flex justify-around p-4 bg-green-700 font-poppins font-semibold text-white uppercase">
         
-            <li  className=" hover:text-lime-400"><Link to=''>Produtos </Link></li>
+            <li  className=" hover:text-lime-400"><Link to='/produtos'>Produtos </Link></li>
             <li  className="  hover:text-lime-400"><Link to='/categorias'>Categorias </Link></li>
             <li  className="  hover:text-lime-400"><Link to='/cadastrarcategoria'>Cadastrar Categoria </Link></li>
             <li  className=" hover:text-lime-400"><Link to='' >Sair</Link></li>
